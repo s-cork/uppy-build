@@ -1,0 +1,22 @@
+{
+  "name": "uppy",
+  "version": "1.0.0",
+  "description": "This is a module for Uppy, packaged for easy import and use in other Node projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node esbuild.config.mjs",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@uppy/aws-s3": "^4.2.3",
+    "@uppy/core": "^4.4.6",
+    "@uppy/dashboard": "^4.3.4"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.5"
+  }
+}
