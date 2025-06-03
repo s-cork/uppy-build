@@ -1,5 +1,5 @@
 {
-  "name": "uppy",
+  "name": "uppy-bundle",
   "version": "1.0.0",
   "description": "This is a module for Uppy, packaged for easy import and use in other Node projects.",
   "main": "index.js",
@@ -12,9 +12,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@uppy/aws-s3": "^4.2.3",
-    "@uppy/core": "^4.4.6",
-    "@uppy/dashboard": "^4.3.4"
+    "@uppy/aws-s3": "^3.x",
+    "@uppy/core": "^3.x",
+    "@uppy/dashboard": "^3.x"
   },
   "devDependencies": {
     "esbuild": "^0.25.5"
