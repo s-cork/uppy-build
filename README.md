@@ -14,3 +14,6 @@ To bundle this module for use in Node or for publishing, use the provided npm sc
 After building, you will find:
 - `dist/uppy.bundle.js` (standard, not minified)
 - `dist/uppy.bundle.min.js` (minified)
+
+> **Note:**
+> If you want to serve these bundles from a CDN (like jsDelivr or unpkg), you must commit the `dist/` directory to your repository. The `.gitignore` has been updated to allow this.
